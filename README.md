@@ -64,23 +64,9 @@ requests==2.32.5
 
 ### Directory
 
-- _Insert your directory structure_
+<img width="439" height="224" alt="image" src="https://github.com/user-attachments/assets/3574e96e-a42b-4fdd-ace5-479e9b71f04b" />
 
-e.g.
-```
-├── code
-│   ├── jupyter_notebooks
-│   │   └── model_train.ipynb
-│   └── train.py
-├── docs
-│   ├── pdf
-│   │   └── (Template) [패스트캠퍼스] Upstage AI Lab 1기_그룹 스터디 .pptx
-│   └── paper
-└── input
-    └── data
-        ├── eval
-        └── train
-```
+
 
 ## 3. Data descrption
 
