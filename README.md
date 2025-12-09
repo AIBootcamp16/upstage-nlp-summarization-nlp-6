@@ -86,18 +86,18 @@ e.g.
 
 ### Dataset overview
 
-- 데이터셋은 학교 생활, 직장, 의료 상담, 쇼핑, 여가, 여행 등 30개 주제의 일상 대화와 이에 대한 요약문 쌍으로 구성되어 있습니다. 학습 데이터 약 12,000개, 검증 데이터 약 500개, 테스트 데이터 249개로 구성되며, 대화는 #Person1#, #Person2# 형식의 화자 태그로 구분됩니다. 요약문은 원본 대화의 약 20% 길이로, 핵심 내용을 간결하게 담고 있습니다.
+데이터셋은 학교 생활, 직장, 의료 상담, 쇼핑, 여가, 여행 등 30개 주제의 일상 대화와 이에 대한 요약문 쌍으로 구성되어 있습니다. 학습 데이터 약 12,000개, 검증 데이터 약 500개, 테스트 데이터 249개로 구성되며, 대화는 #Person1#, #Person2# 형식의 화자 태그로 구분됩니다. 요약문은 원본 대화의 약 20% 길이로, 핵심 내용을 간결하게 담고 있습니다.
 
 ### EDA
 
-- <img width="336" height="637" alt="image" src="https://github.com/user-attachments/assets/2a0a7676-fe92-4290-88d0-1ceb9b1b033c" />
+<img width="336" height="637" alt="image" src="https://github.com/user-attachments/assets/2a0a7676-fe92-4290-88d0-1ceb9b1b033c" />
 <img width="456" height="451" alt="image" src="https://github.com/user-attachments/assets/36c746fd-decc-4f45-92d6-7f2c8c4d855c" />
 
 
 
 ### Data Processing
 
-- 속어, 은어, 반복어가 거의 없어 전처리는 따로 수행하지 않았습니다.
+속어, 은어, 반복어가 거의 없어 전처리는 따로 수행하지 않았습니다.
 
 ## 4. Modeling
 
