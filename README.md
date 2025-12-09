@@ -11,7 +11,7 @@
 - GPU engine: RTX 3090
 
 ### Requirements
-- Core ML/DL Libraries
+Core ML/DL Libraries
 torch==2.9.1
 transformers==4.57.1
 datasets==4.4.1
