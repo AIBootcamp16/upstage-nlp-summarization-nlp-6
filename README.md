@@ -8,7 +8,7 @@
 
 ## 0. Overview
 ### Environment
-- GPU engine: RTX 3090
+GPU engine: RTX 3090
 
 ### Requirements
 Core ML/DL Libraries
