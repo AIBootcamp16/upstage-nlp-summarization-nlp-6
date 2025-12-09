@@ -11,7 +11,7 @@
 - GPU engine: RTX 3090
 
 ### Requirements
-- # Core ML/DL Libraries
+- Core ML/DL Libraries
 torch==2.9.1
 transformers==4.57.1
 datasets==4.4.1
@@ -21,29 +21,29 @@ tiktoken==0.12.0
 sentencepiece==0.2.1
 safetensors==0.6.2
 
-# NLP & Evaluation
+NLP & Evaluation
 rouge-score==0.1.2
 nltk==3.9.2
 konlpy==0.6.0
 
-# Data Processing
+Data Processing
 pandas==2.3.3
 numpy==2.2.6
 scikit-learn==1.7.2
 scipy==1.15.3
 
-# Visualization
+Visualization
 matplotlib==3.10.7
 seaborn==0.13.2
 
-# Jupyter & Development
+Jupyter & Development
 jupyter==1.1.1
 jupyterlab==4.4.10
 ipykernel==7.1.0
 ipython==8.37.0
 notebook==7.4.7
 
-# Utilities
+Utilities
 tqdm==4.67.1
 pyyaml==6.0.3
 requests==2.32.5
