@@ -103,23 +103,24 @@ e.g.
 
 ### Model descrition
 
-- KoBART는 한국어 요약에 특화된 Encoder-Decoder 구조로, mT5나 KE-T5 대비 가볍고 빠르면서도 ROUGE 성능이 우수합니다. 특히 digit82/kobart-summarization은 이미 요약 태스크로 사전학습되어 있어 fine-tuning 효율이 높아 선택하게 되었습니다.
+KoBART는 한국어 요약에 특화된 Encoder-Decoder 구조로, mT5나 KE-T5 대비 가볍고 빠르면서도 ROUGE 성능이 우수합니다. 특히 digit82/kobart-summarization은 이미 요약 태스크로 사전학습되어 있어 fine-tuning 효율이 높아 선택하게 되었습니다.
 
 ### Modeling Process
 
-- _Write model train and test process with capture_
+베이스라인으로 digit82/kobart-summarization 모델을 선정한 후, R-Drop(alpha=5.0) 정규화 기법을 적용하여 일반화 성능을 향상시켰습니다. 추론 단계에서는 beam search 크기를 56으로, max_length를 82로 체계적으로 튜닝하여 최적의 생성 파라미터를 찾았습니다. 마지막으로 Solar API를 활용하여 잘린 문장을 자연스럽게 완성하는 후처리를 적용해 최종 성능을 개선했습니다.
+<img width="2528" height="1752" alt="image" src="https://github.com/user-attachments/assets/fef33e49-f693-4156-8dc2-bd10e731d526" />
+
 
 ## 5. Result
 
 ### Leader Board
 
-- <img width="986" height="142" alt="image" src="https://github.com/user-attachments/assets/54ed833e-3682-4aa3-b0fc-af862c96e1f1" />
-
-- final result 47.2800 총 3위
+<img width="986" height="142" alt="image" src="https://github.com/user-attachments/assets/54ed833e-3682-4aa3-b0fc-af862c96e1f1" />
+final result 47.2800 총 3위
 
 ### Presentation
 
-- [nlp_6_presentation.pdf](https://github.com/user-attachments/files/24055252/nlp_6_presentation.pdf)
+[nlp_6_presentation.pdf](https://github.com/user-attachments/files/24055252/nlp_6_presentation.pdf)
 
 ## etc
 
