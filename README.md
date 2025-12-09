@@ -96,9 +96,11 @@ KoBART는 한국어 요약에 특화된 Encoder-Decoder 구조로, mT5나 KE-T5 
 베이스라인으로 digit82/kobart-summarization 모델을 선정한 후, R-Drop(alpha=5.0) 정규화 기법을 적용하여 일반화 성능을 향상시켰습니다. 추론 단계에서는 beam search 크기를 56으로, max_length를 82로 체계적으로 튜닝하여 최적의 생성 파라미터를 찾았습니다. 마지막으로 Solar API를 활용하여 잘린 문장을 자연스럽게 완성하는 후처리를 적용해 최종 성능을 개선했습니다.
 
 과적합방지 및 일반화를 위한 R-drop class 구현입니다.
+
 <img width="1372" height="1152" alt="image" src="https://github.com/user-attachments/assets/4aa9591f-0c1d-4544-a88d-e9d12efefb96" />
 
-학습 설정과 학습 결과입니다.
+모델 학습시 설정과 학습 결과입니다.
+
 <img width="2528" height="1752" alt="image" src="https://github.com/user-attachments/assets/fef33e49-f693-4156-8dc2-bd10e731d526" />
 
 
