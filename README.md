@@ -113,7 +113,8 @@ final result 47.2800 총 3위
 
 ### Presentation
 
-[nlp_6_presentation.pdf](https://github.com/user-attachments/files/24055252/nlp_6_presentation.pdf)
+[Revised_nlp_6_presentation.pdf](https://github.com/user-attachments/files/24067650/Revised_nlp_6_presentation.pdf)
+
 
 ## etc
 
